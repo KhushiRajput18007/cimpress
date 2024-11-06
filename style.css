@@ -1,0 +1,572 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.titleimg {
+    
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cimpress.com/wp-content/uploads/2018/03/Vistaprint_Product_Hero3b.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;  
+
+}
+
+.logo {
+    height: 30px;
+    width: 20px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.infoi {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 50%;
+    padding-top: 40px;
+    color: white;
+    margin-left: 30%;
+    color: white;
+    text-decoration: none; 
+}
+.infoi a:hover {
+    color: #e0e0e0;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    
+}
+
+.info-block {
+    text-align: center;
+    width: 30%;
+}
+
+.info-block h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info-block p {
+    font-size: 1em;
+    color: #bbbbbb;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .top-section {
+    display: flex;
+    background: linear-gradient(rgba(44, 49, 63, 0.9), rgba(44, 49, 63, 0.9));
+    color: white;
+    padding: 40px 0;
+  }
+
+  .focus-card {
+    flex: 1;
+    padding: 20px 40px;
+    position: relative;
+  }
+
+  .focus-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .focus-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .arrow {
+    color: #ff5733;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+  }
+
+  .main-content {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .image-container {
+    flex: 1;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .content-right {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .content-right h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .content-right p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.entrepreneurial-section {
+    position: relative;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.entrepreneurial-section .content-box {
+    position: relative;
+    max-width: 500px;
+    background: white;
+    padding: 40px;
+    margin-left: 10%; /* Aligns to the left */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.entrepreneurial-section .content-box h2 {
+    color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.entrepreneurial-section .content-box p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.entrepreneurial-section .cta-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+.entrepreneurial-section .cta-button:hover {
+    background-color: #e64a2e;
+}
+
+.background-images {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+.background-images img {
+    width: 200;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        margin: 20px;
+        max-width: calc(100% - 40px);
+    }
+
+    .background-images {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+}
+
+.STRATEGIC-capablities {
+    position: relative;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.STRATEGIC-capablities .content-box {
+    position: relative;
+    max-width: 500px;
+    background: white;
+    padding: 40px;
+    margin-right: 10%; /* Aligns to the right */
+    margin-left: auto; /* Ensures alignment on the right side */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.STRATEGIC-capablities .content-box h2 {
+    color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.STRATEGIC-capablities .content-box p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.STRATEGIC-capablities .cta-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+.STRATEGIC-capablities .cta-button:hover {
+    background-color: #e64a2e;
+}
+   
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .news-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .news-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .news-content {
+    padding: 24px;
+  }
+
+  .news-categories {
+    margin-bottom: 16px;
+  }
+
+  .category-tag {
+    color: #ff5733;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .category-tag:not(:last-child)::after {
+    content: ", ";
+    color: #ff5733;
+  }
+
+  .news-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+
+  .news-excerpt {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .read-more {
+    color: #ff5733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  .read-more::after {
+    content: "›";
+    margin-left: 5px;
+    font-size: 18px;
+  }
+
+  /* Award card specific styles */
+  .award-card .news-image {
+    background: #1a1147;
+    padding: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .news-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .news-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.95);
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-overlay h2 {
+    color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .text-overlay p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 400px;
+    }
+
+    .text-overlay {
+      padding: 25px;
+      width: 95%;
+    }
+
+    .text-overlay h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .text-overlay p {
+      font-size: 14px;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .newsroom-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+  }
+
+  .newsroom-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .newsroom-button:hover {
+    background-color: #e64a2e;
+  }
+
+  .footer {
+    background-color: #3c4046;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .linkedin-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    background-color: #ff5733;
+    border-radius: 4px;
+  }
+
+  .copyright {
+    color: #a0a0a0;
+    font-size: 14px;
+  }
+
+  .copyright span {
+    font-style: italic;
+  }
+
+  .footer-nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+
+  .footer-nav a:hover {
+    color: #ff5733;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .footer-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+  }
